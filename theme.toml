@@ -1,4 +1,4 @@
-name = "my-hugo-theme"
+name = "theme"
 license = "MIT"
 licenselink = "https://github.com/d4sein/my-hugo-theme/blob/master/LICENSE"
 description = "A simple and concise Hugo theme"
