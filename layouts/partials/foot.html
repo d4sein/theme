@@ -1,0 +1,7 @@
+<div class="foot">
+  {{ $start := .Site.Params.startyear }}
+  &copy; {{ $start }} - {{ now.Format "2006" }} &#183;
+  <a href="/blog/"> {{ .Site.Title }} </a> &#183;
+  Powered by <a href="https://gohugo.io/">Hugo</a> &#183;
+  <a href="#"><i class="fas fa-chevron-up"></i></a>
+</div>
