@@ -1,5 +1,5 @@
 ---
-title: {{ replaceRE "[0-9]{2,}" "" .Name | replaceRE "^-*" "" | replaceRE "-" " " | title }}
+title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
 lastmod:
 author: Willian Nascimento
@@ -8,7 +8,7 @@ description:
 categories: []
 tags: []
 
-draft: true
+draft: false
 enableDisqus : false
 enableMathJax: false
 toc: false
